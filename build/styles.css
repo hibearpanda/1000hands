@@ -17,11 +17,10 @@ a {
   float: left;
   height: 100%;
   margin-left: 20px; }
-
-.menu-left-area h1 {
-  display: table-cell;
-  margin: 0;
-  vertical-align: middle; }
+  .menu-left-area h1 {
+    display: table-cell;
+    margin: 0;
+    vertical-align: middle; }
 
 .menu-right-buttons {
   display: inline-block;
@@ -32,19 +31,18 @@ a {
 .menu-items {
   list-style-type: none;
   text-align: center; }
-
-.menu-items a {
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -o-transition: 0.5s;
-  -transition: 0.5s; }
-.menu-items a:hover {
-  color: red; }
-.menu-items li {
-  display: inline-block;
-  margin-left: 10px;
-  margin-right: 10px;
-  cursor: pointer; }
+  .menu-items a {
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -transition: 0.5s; }
+  .menu-items a:hover {
+    color: red; }
+  .menu-items li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer; }
 
 .menu-items-selected {
   color: red; }
