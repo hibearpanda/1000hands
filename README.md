@@ -5,4 +5,4 @@
 
 To compile SCSS into CSS, from terminal run the following:
 
-sass --watch ./styles/styles.scss : ./styles/output.css
+sass --watch ./styles/styles.scss : ./build/styles.css
