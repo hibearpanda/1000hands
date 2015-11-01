@@ -6,6 +6,11 @@ body {
   font-family: $font-stack;
 }
 
+a {
+  color: black;
+  text-decoration: none;
+}
+
 // Top Nav Bar
 
 .menu {
@@ -13,13 +18,27 @@ body {
   top: 0;
   right: 0;
   left: 0;
+  height: 8%;
 }
+  
+  .menu-left-area {
+    display: table;
+    float: left;
+    height: 100%;
+    margin-left: 20px;
+  }
+
+    .menu-left-area h1 {
+      display: table-cell;
+      margin: 0;
+      vertical-align: middle;
+    }
 
   .menu-right-buttons {
     display: inline-block;
     float: right;  
-    margin-right: 20px
-
+    margin-right: 20px;
+    height: 100%;
   }
 
   .menu-items {
@@ -28,19 +47,22 @@ body {
   }
 
     .menu-items {
-      li {
-        display: inline-block;
-        margin-left: 10px;
-        margin-right: 10px;
-        cursor: pointer;
+      a {
         -webkit-transition: $trans-length;
         -moz-transition: $trans-length;
         -o-transition: $trans-length;
         -transition: $trans-length;
       }
 
-      li:hover {
+      a:hover {
         color: $primary-red;
+      }
+
+      li {
+        display: inline-block;
+        margin-left: 10px;
+        margin-right: 10px;
+        cursor: pointer;
       }
     }
 
