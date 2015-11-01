@@ -1,5 +1,49 @@
-$font-stack: Lato, Helvetica, sans-serif;
+$font-stack: Helvetica, sans-serif;
+$primary-red: red;
+$trans-length: 0.5s;
 
 body {
-  font: $font-stack;
+  font-family: $font-stack;
 }
+
+// Top Nav Bar
+
+.menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+  .menu-right-buttons {
+    display: inline-block;
+    float: right;  
+    margin-right: 20px
+
+  }
+
+  .menu-items {
+    list-style-type: none;
+    text-align: center;
+  }
+
+    .menu-items {
+      li {
+        display: inline-block;
+        margin-left: 10px;
+        margin-right: 10px;
+        cursor: pointer;
+        -webkit-transition: $trans-length;
+        -moz-transition: $trans-length;
+        -o-transition: $trans-length;
+        -transition: $trans-length;
+      }
+
+      li:hover {
+        color: $primary-red;
+      }
+    }
+
+      .menu-items-selected {
+        color: $primary-red;
+      }

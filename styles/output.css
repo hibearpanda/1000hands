@@ -1,4 +1,34 @@
 body {
-  font: Lato, Helvetica, sans-serif; }
+  font-family: Helvetica, sans-serif; }
+
+.menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0; }
+
+.menu-right-buttons {
+  display: inline-block;
+  float: right;
+  margin-right: 20px; }
+
+.menu-items {
+  list-style-type: none;
+  text-align: center; }
+
+.menu-items li {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  -transition: 0.5s; }
+.menu-items li:hover {
+  color: red; }
+
+.menu-items-selected {
+  color: red; }
 
 /*# sourceMappingURL=output.css.map */

@@ -2,5 +2,7 @@
 
 
 ## Build CSS
-From terminal:
-sass --watch ./styles/styles.scss : ./styles/styles.css
+
+To compile SCSS into CSS, from terminal run the following:
+
+sass --watch ./styles/styles.scss : ./styles/output.css
