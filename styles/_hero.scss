@@ -1,0 +1,18 @@
+.hero {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  right: 0;
+
+  // hero background-image is for testing purposes only
+  // remove and replace with vertical video later on
+
+  height: 100%;
+  background-image: url('../assets/guru-frame.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  @include breakpoint('tablet') {
+    top: 8%;
+  }
+}

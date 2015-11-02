@@ -1,0 +1,17 @@
+@mixin breakpoint($size) {
+  @if $size == "mobile" {
+    @media (max-width: 300px) {
+      @content;
+    }
+  }
+  @else if $size == "tablet" {
+    @media (max-width: 991px) {
+      @content;
+    }
+  }
+  @else if $size == "widescreen" {
+    @media (max-width: 1280px) {
+      @content;
+    }
+  }
+}
