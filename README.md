@@ -14,5 +14,5 @@ mkdir build
 Compile SCSS into CSS and watch during development:
 
 ```
-sass --watch ./styles/styles.scss : ./build/styles.css
+sass --watch ./styles/styles.scss:./build/styles.css
 ```
