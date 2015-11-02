@@ -1,8 +1,18 @@
 # 1000gurus
 
+## Development
 
-## Build CSS
+### Dependencies
+1. SASS
 
-To compile SCSS into CSS, from terminal run the following:
+Make a build folder in project root
 
-sass --watch ./styles/styles.scss : ./styles/output.css
+```
+mkdir build
+```
+
+Compile SCSS into CSS and watch during development:
+
+```
+sass --watch ./styles/styles.scss : ./build/styles.css
+```
