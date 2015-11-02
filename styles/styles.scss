@@ -1,6 +1,7 @@
 $font-stack: Helvetica, sans-serif;
 $primary-red: #BE0000;
 $trans-length: 0.5s;
+$slide-length: 0.3s;
 
 body {
   font-family: $font-stack;
@@ -34,12 +35,12 @@ a {
     display: table;
     float: left;
     height: 100%;
-    margin-left: 20px;
+    margin-left: 10%;
 
-    h1 {
-      display: table-cell;
-      margin: 0;
-      vertical-align: middle;
+    #menu-logo {
+      position: absolute;
+      max-height: 90%;
+      margin-top: 3px;
     }
   }
 
@@ -116,8 +117,8 @@ a {
   .hamburger-icon {
     position: absolute;
     top: 0px;
-    right: 1em;
-    width: 8%;
+    right: 0.5em;
+    width: 12%;
     height: 100%;
     z-index: 2;
   }
@@ -169,14 +170,21 @@ a {
 
   .menu-slidedown, .menu-slideup {
     max-height: 0;
-    -o-transition: max-height $trans-length ease-in-out;
-    -ms-transition: max-height $trans-length ease-in-out;
-    -moz-transition: max-height $trans-length ease-in-out;
-    -webkit-transition: max-height $trans-length ease-in-out;
-    transition: max-height $trans-length ease-in-out;
+    -o-transition: max-height $slide-length ease-in-out;
+    -ms-transition: max-height $slide-length ease-in-out;
+    -moz-transition: max-height $slide-length ease-in-out;
+    -webkit-transition: max-height $slide-length ease-in-out;
+    transition: max-height $slide-length ease-in-out;
   }
 
   .menu-slidedown {
     max-height: 500px;
   }
+
+// Hero
+
+.hero {
+  top: 8%;
+}
+
 }

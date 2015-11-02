@@ -24,11 +24,11 @@ a {
   display: table;
   float: left;
   height: 100%;
-  margin-left: 20px; }
-  .menu-left-area h1 {
-    display: table-cell;
-    margin: 0;
-    vertical-align: middle; }
+  margin-left: 10%; }
+  .menu-left-area #menu-logo {
+    position: absolute;
+    max-height: 90%;
+    margin-top: 3px; }
 
 .menu-right-buttons {
   display: inline-block;
@@ -79,8 +79,8 @@ a {
   .hamburger-icon {
     position: absolute;
     top: 0px;
-    right: 1em;
-    width: 8%;
+    right: 0.5em;
+    width: 12%;
     height: 100%;
     z-index: 2; }
 
@@ -123,13 +123,16 @@ a {
 
   .menu-slidedown, .menu-slideup {
     max-height: 0;
-    -o-transition: max-height 0.5s ease-in-out;
-    -ms-transition: max-height 0.5s ease-in-out;
-    -moz-transition: max-height 0.5s ease-in-out;
-    -webkit-transition: max-height 0.5s ease-in-out;
-    transition: max-height 0.5s ease-in-out; }
+    -o-transition: max-height 0.3s ease-in-out;
+    -ms-transition: max-height 0.3s ease-in-out;
+    -moz-transition: max-height 0.3s ease-in-out;
+    -webkit-transition: max-height 0.3s ease-in-out;
+    transition: max-height 0.3s ease-in-out; }
 
   .menu-slidedown {
-    max-height: 500px; } }
+    max-height: 500px; }
+
+  .hero {
+    top: 8%; } }
 
 /*# sourceMappingURL=styles.css.map */
