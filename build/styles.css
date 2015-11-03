@@ -90,6 +90,8 @@ a {
     text-align: justify;
     margin-top: 2em;
     line-height: 2; }
+  .content-wrapper .image-row img {
+    width: 100vw; }
 
 @media screen and (max-width: 991px) {
   .menu {
@@ -152,6 +154,13 @@ a {
 
   .content-wrapper {
     top: 8%; }
+    .content-wrapper h1, .content-wrapper h2, .content-wrapper h3, .content-wrapper h4, .content-wrapper h5, .content-wrapper h6, .content-wrapper p {
+      width: 88%; }
+    .content-wrapper h1 {
+      font-size: 3em;
+      text-align: justify; }
+    .content-wrapper p {
+      font-size: 2.5em; }
 
   .contact-hero-image, .content-wrapper .about-hero-image, .content-wrapper .behind-hero-image {
     padding-top: 14em;
