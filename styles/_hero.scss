@@ -1,18 +1,28 @@
 .hero {
-  position: absolute;
-  top: 10%;
-  left: 0;
-  right: 0;
-
-  // hero background-image is for testing purposes only
-  // remove and replace with vertical video later on
-
   height: 100%;
-  background-image: url('../assets/guru-frame.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-
+  width: 100%;
   @include breakpoint('tablet') {
     top: 8%;
+  }
+}
+
+.landing-background {
+  width: 100%;
+  display: block;
+  margin: 50px auto 0px auto;
+  background-image: url('../assets/silkframe.png');
+  background-size: 890px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.landing-video{
+  margin: auto;
+  display: block;
+  height: 600px;
+  overflow: hidden;
+  @include breakpoint('mobile') {
+    width: 100%;
+    height: 100%;
   }
 }
