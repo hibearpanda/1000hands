@@ -68,19 +68,28 @@ a {
   top: 10%;
   left: 0;
   height: 100%; }
-
-.contact-hero-image, .about-hero-image, .behind-hero-image {
-  min-height: 80%;
-  background-image: url("../assets/contact-hero.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center; }
-
-.about-hero-image {
-  background-image: url("../assets/tashi.jpg"); }
-
-.behind-hero-image {
-  background-image: url("../assets/ashi-kesang.jpg"); }
+  .content-wrapper .contact-hero-image, .content-wrapper .about-hero-image, .content-wrapper .behind-hero-image {
+    min-height: 80%;
+    background-image: url("../assets/contact-hero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }
+  .content-wrapper .about-hero-image {
+    background-image: url("../assets/tashi.jpg"); }
+  .content-wrapper .behind-hero-image {
+    background-image: url("../assets/ashi-kesang.jpg"); }
+  .content-wrapper h1, .content-wrapper h2, .content-wrapper h3, .content-wrapper h4, .content-wrapper h5, .content-wrapper h6, .content-wrapper p {
+    color: #774553;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    line-height: 1.5; }
+  .content-wrapper p {
+    color: initial;
+    text-align: justify;
+    margin-top: 2em;
+    line-height: 2; }
 
 @media screen and (max-width: 991px) {
   .menu {
@@ -144,7 +153,7 @@ a {
   .content-wrapper {
     top: 8%; }
 
-  .contact-hero-image, .about-hero-image, .behind-hero-image {
+  .contact-hero-image, .content-wrapper .about-hero-image, .content-wrapper .behind-hero-image {
     padding-top: 14em;
     padding-bottom: 14em;
     min-height: 10%; } }

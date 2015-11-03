@@ -1,7 +1,9 @@
 $font-stack: Helvetica, sans-serif;
-$primary-red: #BE0000;
+$menu-red: #BE0000;
+$primary-red: #774553;
 $trans-length: 0.5s;
 $slide-length: 0.3s;
+$content-width: 75%;
 
 body {
   font-family: $font-stack;
@@ -69,7 +71,7 @@ a {
     }
 
     a:hover {
-      color: $primary-red;
+      color: $menu-red;
     }
 
     li {
@@ -82,7 +84,7 @@ a {
   }
 
     .menu-items-selected {
-      color: $primary-red;
+      color: $menu-red;
     }
 
 // Content Wrapper
@@ -93,7 +95,6 @@ a {
   top: 10%;
   left: 0;
   height: 100%;
-}
 
   // Hero Images
 
@@ -114,6 +115,23 @@ a {
     @extend .contact-hero-image;
     background-image: url('../assets/ashi-kesang.jpg');
   }
+
+  h1, h2, h3, h4, h5, h6, p {
+    color: $primary-red;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: $content-width;
+    line-height: 1.5;
+  }
+
+  p {
+    color: initial;
+    text-align: justify;
+    margin-top: 2em;
+    line-height: 2;
+  }
+}
 
 // Tablet Size
 
