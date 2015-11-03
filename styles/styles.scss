@@ -1,7 +1,9 @@
 $font-stack: Helvetica, sans-serif;
-$primary-red: #BE0000;
+$menu-red: #BE0000;
+$primary-red: #774553;
 $trans-length: 0.5s;
 $slide-length: 0.3s;
+$content-width: 75%;
 
 body {
   font-family: $font-stack;
@@ -20,7 +22,7 @@ a {
   top: 0;
   right: 0;
   left: 0;
-  height: 10%;
+  height: 10vh;
   background-color: white;
   z-index: 1000;
 }
@@ -69,7 +71,7 @@ a {
     }
 
     a:hover {
-      color: $primary-red;
+      color: $menu-red;
     }
 
     li {
@@ -82,24 +84,59 @@ a {
   }
 
     .menu-items-selected {
-      color: $primary-red;
+      color: $menu-red;
     }
 
-// Hero
+// Content Wrapper
 
-.hero {
+.content-wrapper {
   position: absolute;
+  width: 100%;
   top: 10%;
   left: 0;
-  right: 0;
-
-  // hero background-image is for testing purposes only
-  // remove and replace with vertical video later on
-
   height: 100%;
-  background-image: url('../assets/guru-frame.png');
-  background-size: cover;
-  background-repeat: no-repeat;
+
+  // Hero Images
+
+  .contact-hero-image {
+    min-height: 80%;
+    background-image: url('../assets/contact-hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .about-hero-image {
+    @extend .contact-hero-image;
+    background-image: url('../assets/tashi.jpg');
+  }
+
+  .behind-hero-image {
+    @extend .contact-hero-image;
+    background-image: url('../assets/ashi-kesang.jpg');
+  }
+
+  h1, h2, h3, h4, h5, h6, p {
+    color: $primary-red;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: $content-width;
+    line-height: 1.5;
+  }
+
+  p {
+    color: initial;
+    text-align: justify;
+    margin-top: 2em;
+    line-height: 2;
+  }
+
+  .image-row {
+    img {
+      width: 100vw;
+    }
+  }
 }
 
 // Tablet Size
@@ -151,21 +188,19 @@ a {
       width: 80%;
       padding: 0;
       box-shadow: rgba(0,0,0,0.09) 0 8px 8px;
-    }
 
-    .menu-items {
-      li {
-        display: list-item;
-        padding-top: 30px;
-        padding-bottom: 30px;
-        margin-right: 30px;
-        height: initial;
-      }
+        li {
+          display: list-item;
+          padding-top: 30px;
+          padding-bottom: 30px;
+          margin-right: 30px;
+          height: initial;
+        }
 
-      a {
-        margin-left: 20px;
-        font-size: 35px;
-      }
+        a {
+          margin-left: 20px;
+          font-size: 35px;
+        }
     }
 
   .menu-slidedown, .menu-slideup {
@@ -181,10 +216,31 @@ a {
     max-height: 500px;
   }
 
-// Hero
+// Content Wrapper
 
-.hero {
+.content-wrapper {
   top: 8%;
+
+  h1, h2, h3, h4, h5, h6, p {
+    width: 88%;
+  }
+
+  h1 {
+    font-size: 3em;
+    text-align: justify;
+  }
+
+  p {
+    font-size: 2.5em;
+  }
 }
+
+  // Hero
+
+  .contact-hero-image {
+    padding-top: 14em;
+    padding-bottom: 14em;
+    min-height: 10%; 
+  }
 
 }
