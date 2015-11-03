@@ -52,7 +52,7 @@
   }
 
   a:hover {
-    color: $primary-red;
+    color: $menu-red;
   }
 
   li {
@@ -65,7 +65,7 @@
 }
 
 .menu-items-selected {
-  color: $primary-red;
+  color: $menu-red;
 }
 
 
@@ -118,6 +118,7 @@
     width: 80%;
     padding: 0;
     box-shadow: rgba(0,0,0,0.09) 0 8px 8px;
+
     li {
       display: list-item;
       padding-top: 30px;

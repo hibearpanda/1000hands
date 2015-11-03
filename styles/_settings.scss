@@ -1,3 +1,10 @@
+$font-stack: Helvetica, sans-serif;
+$menu-red: #BE0000;
+$primary-red: #774553;
+$trans-length: 0.5s;
+$slide-length: 0.3s;
+$content-width: 75%;
+
 @mixin breakpoint($size) {
   @if $size == "mobile" {
     @media (max-width: 640px) {
