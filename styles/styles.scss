@@ -38,6 +38,15 @@ a {
     line-height: 2;
   }
 
+  .image-boxed {
+    width: 60vw;
+    margin: auto;
+    display: block;
+    img {
+      width: 100%;
+    }
+  }
+
   .image-row {
     img {
       width: 100vw;
