@@ -1,6 +1,7 @@
 @import 'settings';
 @import 'hero';
 @import 'menu';
+@import 'images';
 
 body {
   font-family: $font-stack;
@@ -36,12 +37,6 @@ a {
     text-align: justify;
     margin-top: 2em;
     line-height: 2;
-  }
-
-  .image-row {
-    img {
-      width: 100vw;
-    }
   }
 }
 
