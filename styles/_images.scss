@@ -1,5 +1,16 @@
-:focus{
-  outline:none;
+.image-boxed {
+  width: 60vw;
+  margin: auto;
+  display: block;
+  img {
+    width: 100%;
+  }
+}
+
+.image-row {
+  img {
+    width: 100vw;
+  }
 }
 
 .image-gallery{
@@ -43,9 +54,10 @@
   }
 
   a:focus img{
-    width:250%;
-    height:250%;
+    width:300%;
+    height:300%;
     position:absolute;
+    top: -200px;
     box-shadow:0 0 15px 2px #000;
     -moz-box-shadow:0 0 15px 2px #000;
     -webkit-box-shadow:0 0 15px 2px #000;
@@ -61,46 +73,23 @@
     z-index:25;
   }
 
-  a:focus:nth-child(4n+1) img{
+  a:focus:nth-child(5n+1) img{
     left:150px;
   }
 
-  a:focus:nth-child(4n+2) img{
+  a:focus:nth-child(5n+2) img{
     left:-50px;
   }
 
-  a:focus:nth-child(4n+3) img{
+  a:focus:nth-child(5n+3) img{
     left:-250px;
   }
 
-  a:focus:nth-child(4n+4) img{
-    left:-460px;
+  a:focus:nth-child(5n+4) img{
+    left:-450px;
   }
 
-  a:focus:nth-child(-n+4) img{
-    top:140px;
-  }
-
-  a:focus:nth-child(n+9) img{
-    top:-150px;
-  }
-
-  a:focus:nth-child(n+13) img{
-    top:-295px;
-  }
-}
-
-.image-boxed {
-  width: 60vw;
-  margin: auto;
-  display: block;
-  img {
-    width: 100%;
-  }
-}
-
-.image-row {
-  img {
-    width: 100vw;
+  a:focus:nth-child(5n+5) img{
+    left:-500px;
   }
 }
