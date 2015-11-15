@@ -9,23 +9,26 @@
 }
 
 //TODO: Resize video files
+.landing-background {
+  background-image: url('../assets/old_map.png');
+}
+
 .landing-video{
-  margin: 175px auto 0px auto;
+  margin: auto;
+  padding-top: 130px;
   display: block;
-  height: 600px;
+  height: 550px;
   overflow: hidden;
 }
 
-.video_contain {
-  width: 100%;
-  margin: 8vh 0 0 0;
-  padding: 0;
-}
-
-.inside-the-workshop-video {
-  margin:0;
-  padding:0;
-  width:100%;
+.landing-hero-image {
+  @extend .hero;
+  height: 900px;
+  position: absolute;
+  top: -110px;
+  z-index: 10;
+  background-image: url('../assets/empty-thangka-trans-cropped.png');
+  background-size: 500px !important;
 }
 
 // TODO: If contact-hero-image = base, refactor to hero-image
@@ -44,14 +47,16 @@
   background-image: url('../assets/ashi-kesang.jpg');
 }
 
-.landing-hero-image {
-  @extend .hero;
-  height: 900px;
-  position: absolute;
-  top: -200px;
-  z-index: 10;
-  background-image: url('../assets/empty-thangka-trans-cropped.png');
-  background-size: auto !important;
+.video_contain {
+  width: 100%;
+  margin: 8vh 0 0 0;
+  padding: 0;
+}
+
+.inside-the-workshop-video {
+  margin:0;
+  padding:0;
+  width:100%;
 }
 
 @include breakpoint('table') {
