@@ -2,3 +2,4 @@
 build
 .sass-cache
 assets/video/
+node_modules
