@@ -10,9 +10,9 @@ app.use(bodyParser.json());
 
 app.options('*', cors());
 
-app.use(express.static(__dirname + '/public'));
+app.use(express.static(process.cwd() + '/public'));
 
-app.use(router);
+app.use("/",router);
 
 app.listen(port, function() {
   console.log('Server listening on port: ' + 3000);
