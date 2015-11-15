@@ -10,7 +10,7 @@
 
 //TODO: Resize video files
 .landing-background {
-  background-image: url('../public/assets/old_map.png');
+  background-image: url('../assets/old_map.png');
 }
 
 .landing-video{
@@ -27,24 +27,24 @@
   position: absolute;
   top: -110px;
   z-index: 10;
-  background-image: url('../public/assets/empty-thangka-trans-cropped.png');
+  background-image: url('../assets/empty-thangka-trans-cropped.png');
   background-size: 500px !important;
 }
 
 // TODO: If contact-hero-image = base, refactor to hero-image
 .contact-hero-image {
   @extend .hero;
-  background-image: url('../public/assets/contact-hero.jpg');
+  background-image: url('../assets/contact-hero.jpg');
 }
 
 .about-hero-image {
   @extend .contact-hero-image;
-  background-image: url('../public/assets/tashi.jpg');
+  background-image: url('../assets/tashi.jpg');
 }
 
 .behind-hero-image {
   @extend .contact-hero-image;
-  background-image: url('../public/assets/ashi-kesang.jpg');
+  background-image: url('../assets/ashi-kesang.jpg');
 }
 
 .video_contain {
