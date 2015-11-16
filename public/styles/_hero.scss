@@ -1,0 +1,72 @@
+.hero {
+  height: 60vh;
+  width: 100%;
+  margin-top: 8vh;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+//TODO: Resize video files
+.landing-background {
+  background-image: url('../assets/old_map.png');
+}
+
+.landing-video{
+  margin: auto;
+  padding-top: 130px;
+  display: block;
+  height: 550px;
+  overflow: hidden;
+}
+
+.landing-hero-image {
+  @extend .hero;
+  height: 900px;
+  position: absolute;
+  top: -110px;
+  z-index: 10;
+  background-image: url('../assets/empty-thangka-trans-cropped.png');
+  background-size: 500px !important;
+}
+
+// TODO: If contact-hero-image = base, refactor to hero-image
+.contact-hero-image {
+  @extend .hero;
+  background-image: url('../assets/contact-hero.jpg');
+}
+
+.about-hero-image {
+  @extend .contact-hero-image;
+  background-image: url('../assets/tashi.jpg');
+}
+
+.behind-hero-image {
+  @extend .contact-hero-image;
+  background-image: url('../assets/ashi-kesang.jpg');
+}
+
+.video_contain {
+  width: 100%;
+  margin: 8vh 0 0 0;
+  padding: 0;
+}
+
+.inside-the-workshop-video {
+  margin:0;
+  padding:0;
+  width:100%;
+}
+
+@include breakpoint('table') {
+  .hero {
+    top: 8%;
+  }
+
+  .contact-hero-image {
+    padding-top: 14em;
+    padding-bottom: 14em;
+    min-height: 10%;
+  }
+}

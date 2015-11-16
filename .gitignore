@@ -1,4 +1,6 @@
 .idea
-build
+public/build
 .sass-cache
 assets/video/
+node_modules
+server/config.js
