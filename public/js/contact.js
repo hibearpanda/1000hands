@@ -4,7 +4,6 @@ $(document).ready(function() {
     var message = {
       email: $('#email-field').val(),
       name: $('#name-field').val(),
-      subject: $('#subject-field').val(),
       text: $('#text-field').val()
     };
     console.log('sending message', message);
