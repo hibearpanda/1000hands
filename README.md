@@ -14,7 +14,7 @@ mkdir public/build
 Compile SCSS into CSS and watch during development:
 
 ```
-sass --watch .public/styles/styles.scss:.public/build/styles.css
+sass --watch ./public/styles/styles.scss:./public/build/styles.css
 ```
 
 Add videos to public/assets/video
