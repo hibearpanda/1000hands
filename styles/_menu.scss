@@ -4,7 +4,7 @@
   right: 0;
   left: 0;
   height: 10vh;
-  background-color: white;
+  background-color: $menu-red;
   z-index: 1000;
 }
 
@@ -45,14 +45,11 @@
     display: block;
     top: 35%;
     font-weight: bold;
-    -webkit-transition: $trans-length;
-    -moz-transition: $trans-length;
-    -o-transition: $trans-length;
-    -transition: $trans-length;
+    color: white;
   }
 
   a:hover {
-    color: $menu-red;
+    border-bottom: solid 2px;
   }
 
   li {
@@ -65,7 +62,7 @@
 }
 
 .menu-items-selected {
-  color: $menu-red;
+  border-bottom: solid 2px;
 }
 
 
