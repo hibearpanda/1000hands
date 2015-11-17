@@ -73,7 +73,8 @@
   // Top Nav Bar
 
   .menu {
-    height: 8%;
+    height: 8vh;
+    min-height: 50px;
   }
 
   // Hamburger Icon
@@ -94,8 +95,8 @@
     right: 1em;
     width: 2em;
     height:.4em;
-    border-top: 1em double black;
-    border-bottom: 0.37em solid black;
+    border-top: 1em double white;
+    border-bottom: 0.37em solid white;
   }
 
   .menu-right-buttons {
@@ -104,9 +105,9 @@
   }
 
   .menu-items {
-    background-color: #eee;
+    background-color: #932727;
     margin-bottom: 0;
-    margin-top: 8vh;
+    margin-top: 7.5vh;
     right: 0;
     overflow-y: hidden;
     overflow-x: hidden;
@@ -127,6 +128,7 @@
     a {
       margin-left: 20px;
       font-size: 35px;
+      display: inline-block;
     }
   }
 
@@ -141,5 +143,15 @@
 
   .menu-slidedown {
     max-height: 500px;
+  }
+
+  .menu-items-selected {
+    border-bottom: solid 5px;
+  }
+
+  .menu-items {
+    a:hover {
+      border-bottom: none;
+    }
   }
 }
