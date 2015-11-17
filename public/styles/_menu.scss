@@ -107,9 +107,10 @@
   }
 
   .menu-items {
-    background-color: #932727;
+    background-image: url('../assets/menu-texture.jpg');
+    background-repeat: repeat;
     margin-bottom: 0;
-    margin-top: 7.5vh;
+    margin-top: 8vh;
     right: 0;
     overflow-y: hidden;
     overflow-x: hidden;
