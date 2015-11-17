@@ -4,7 +4,8 @@
   right: 0;
   left: 0;
   height: 10vh;
-  background-color: $menu-red;
+  background-image: url('../assets/menu-texture.jpg');
+  background-repeat: repeat-x;
   z-index: 1000;
 }
 
