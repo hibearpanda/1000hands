@@ -19,4 +19,7 @@ $(document).ready(function() {
 
   //Hook up contact form
   contactForm.attach();
+
+  //Run slide gallery
+  $('#my-slider').sliderPro();
 });
