@@ -3,8 +3,8 @@
   top: 0;
   right: 0;
   left: 0;
-  height: 10vh;
-  min-height: 50px;
+  height: 8vh;
+  min-height: 40px;
   background-image: url('../assets/menu-texture.jpg');
   background-repeat: repeat;
   background-color: $menu-red-dark;
@@ -24,9 +24,9 @@
   margin-left: 10%;
 
   #menu-logo {
-    position: absolute;
-    max-height: 90%;
-    margin-top: 3px;
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
   }
 }
 
@@ -46,7 +46,7 @@
   a {
     position: relative;
     display: block;
-    top: 35%;
+    top: 20%;
     font-weight: bold;
     color: white;
     text-shadow: 0 0.5px 3px black;
@@ -80,6 +80,15 @@
     height: 8vh;
   }
 
+  .menu-left-area {
+    #menu-logo {
+      display: inline-block;
+      max-width: 90%;
+      left: 0;
+      position: absolute;
+    }
+  }
+
   // Hamburger Icon
 
   .hamburger-icon {
@@ -94,7 +103,7 @@
   .hamburger-icon:before {
     content: "";
     position: absolute;
-    top: 30%;
+    top: 20%;
     right: 1em;
     width: 2em;
     height:.4em;
