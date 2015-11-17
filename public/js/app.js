@@ -1,4 +1,10 @@
+var $ = require('jquery-browserify');
+require('../../node_modules/slider-pro/dist/js/jquery.sliderPro.min.js');
+
+var contactForm = require('./contact.js');
+
 $(document).ready(function() {
+  // Mobile Menu
   $('.hamburger-icon').click(function() {
     if($('.menu-items').hasClass('menu-slideup')) {
       $('.menu-items').removeClass('menu-slideup');
@@ -10,4 +16,7 @@ $(document).ready(function() {
       $('.menu-items').addClass('menu-slideup');
     }
   });
+
+  //Hook up contact form
+  contactForm.attach();
 });
