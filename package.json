@@ -22,6 +22,7 @@
     "express": "^4.13.3",
     "nodemailer": "^1.10.0",
     "nodemailer-mailgun-transport": "^1.0.1",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "slider-pro": "^1.2.3"
   }
 }
