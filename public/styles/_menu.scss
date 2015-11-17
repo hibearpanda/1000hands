@@ -27,6 +27,7 @@
     display: inline-block;
     height: 100%;
     vertical-align: middle;
+    padding-top: 3px;
   }
 }
 
@@ -46,7 +47,7 @@
   a {
     position: relative;
     display: block;
-    top: 20%;
+    top: 30%;
     font-weight: bold;
     color: white;
     text-shadow: 0 0.5px 3px black;
@@ -103,7 +104,7 @@
   .hamburger-icon:before {
     content: "";
     position: absolute;
-    top: 20%;
+    top: 35%;
     right: 1em;
     width: 2em;
     height:.4em;
