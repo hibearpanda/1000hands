@@ -4,6 +4,7 @@
   right: 0;
   left: 0;
   height: 10vh;
+  min-height: 50px;
   background-image: url('../assets/menu-texture.jpg');
   background-repeat: repeat-x;
   z-index: 1000;
@@ -47,6 +48,7 @@
     top: 35%;
     font-weight: bold;
     color: white;
+    text-shadow: 0 0.5px 3px black;
   }
 
   a:hover {
@@ -75,7 +77,6 @@
 
   .menu {
     height: 8vh;
-    min-height: 50px;
   }
 
   // Hamburger Icon
