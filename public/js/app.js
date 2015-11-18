@@ -21,5 +21,9 @@ $(document).ready(function() {
   contactForm.attach();
 
   //Run slide gallery
-  $('#my-slider').sliderPro();
+  $('#my-slider').sliderPro({
+    width: '100%',
+    height: 400,
+    arrows: true
+  });
 });
