@@ -1,7 +1,8 @@
 var $ = require('jquery-browserify');
 require('../../node_modules/slider-pro/dist/js/jquery.sliderPro.min.js');
 
-var contactForm = require('./contact.js');
+var contactForm = require('./contact');
+var backerLogin = require('./backerLogin');
 
 $(document).ready(function() {
   // Mobile Menu
@@ -17,8 +18,11 @@ $(document).ready(function() {
     }
   });
 
-  //Hook up contact form
+  // Hook up contact form
   contactForm.attach();
+
+  // Hook up backer login form
+  backerLogin.attach();
 
   //Run slide gallery
   $('#my-slider').sliderPro({
