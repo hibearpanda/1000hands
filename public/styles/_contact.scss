@@ -6,3 +6,35 @@
   display:none;
   text-align:center;
 }
+
+#contact-message {
+  text-align: center;
+}
+
+  .contact-form {
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+
+    #email-field, #name-field, #text-field {
+      display: block;
+      width: 500px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 5px;
+      font-size: 15px;
+      border: solid 1px grey;
+      padding: 5px;
+    }
+
+    #text-field {
+      resize: none;
+      height: 150px;
+    }
+
+    #contact-submit-btn {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
