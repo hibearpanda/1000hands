@@ -2,14 +2,22 @@
 
 ## Development
 
-### Dependencies
-1. SASS
+### Build Tasks
 
-Make a build folder in project root
+1. Make a build folder in project root
 
 ```
 mkdir public/build
 ```
+
+1. JS bundle
+
+```
+npm install
+npm run-script build
+```
+
+1. SASS
 
 Compile SCSS into CSS and watch during development:
 
