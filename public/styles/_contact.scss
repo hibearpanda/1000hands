@@ -3,8 +3,8 @@
 }
 
 .on-submit {
-  display:none;
-  text-align:center;
+  display: none;
+  text-align: center;
 }
 
 #contact-message {
@@ -36,5 +36,33 @@
       display: block;
       margin-left: auto;
       margin-right: auto;
+      border: none;
+      color: white;
+      background-color: $menu-red;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
+      font-size: 15px;
+      border-radius: 5px;
+      margin-bottom: 10px;
     }
   }
+
+// Tablet Size
+
+@include breakpoint('tablet') {
+
+#contact-message {
+  text-align: justify;
+}
+
+  .contact-form {
+    max-width: 90%;
+
+    #email-field, #name-field, #text-field {
+      width: 95%;
+      margin-bottom: 10px;
+    }
+  }
+}
