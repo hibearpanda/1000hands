@@ -1,7 +1,7 @@
 module.exports.attach = function() {
   var $contactForm = $('.contact-form');
   if($contactForm) {
-    $('.contact-form').submit(function(event) {
+    $contactForm.submit(function(event) {
       event.preventDefault();
 
       if ($('#email-field').val() == '') {
