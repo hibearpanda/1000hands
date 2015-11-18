@@ -1,62 +1,61 @@
 .on-submit {
   display: none;
   text-align: center;
-}
 
   #submit-message {
     text-align: center;
   }
+}
 
 #contact-message {
   text-align: center;
 }
 
-  .contact-form {
-    max-width: 75%;
+.contact-form {
+  max-width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+
+  #email-field, #name-field, #text-field {
+    display: block;
+    width: 500px;
     margin-left: auto;
     margin-right: auto;
-
-    #email-field, #name-field, #text-field {
-      display: block;
-      width: 500px;
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 5px;
-      font-size: 15px;
-      border: solid 1px grey;
-      padding: 5px;
-    }
-
-    #text-field {
-      resize: none;
-      height: 150px;
-    }
-
-    #contact-submit-btn {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      border: none;
-      color: white;
-      background-color: $menu-red-dark;
-      padding-top: 15px;
-      padding-bottom: 15px;
-      padding-left: 20px;
-      padding-right: 20px;
-      font-size: 15px;
-      border-radius: 5px;
-      margin-bottom: 10px;
-      cursor: pointer;
-    }
+    margin-bottom: 5px;
+    font-size: 15px;
+    border: solid 1px grey;
+    padding: 5px;
   }
+
+  #text-field {
+    resize: none;
+    height: 150px;
+  }
+
+  #contact-submit-btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    color: white;
+    background-color: $menu-red-dark;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+}
 
 // Tablet Size
 
 @include breakpoint('tablet') {
-
-#contact-message {
-  text-align: justify;
-}
+  #contact-message {
+    text-align: justify;
+  }
 
   .contact-form {
     max-width: 90%;
