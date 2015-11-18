@@ -1,30 +1,29 @@
 module.exports.attach = function() {
   var $contactForm = $('.contact-form');
   if($contactForm) {
-    $('.contact-form').submit(function(event) {
+    $contactForm.submit(function(event) {
       event.preventDefault();
 
-      if ($('#email-field').val() == '') {
-        $('#email-field').focus();
+      var $email = $('#email-field');
+      var $name = $('#name-field');
+      var $text = $('#text-field');
+
+      if ($email.val() == '') {
+        $email.focus();
         return alert('Please enter your e-mail');
-      }
-
-      else if ($('#name-field').val() == '') {
-        $('#name-field').focus();
+      } else if ($name.val() == '') {
+        $name.focus();
         return alert('Please enter your name');
-      }
-
-      else if ($('#text-field').val() == '') {
-        $('#text-field').focus();
+      } else if ($text.val() == '') {
+        $text.focus();
         return alert('Please leave us a message');
       }
 
       var message = {
-        email: $('#email-field').val(),
-        name: $('#name-field').val(),
-        text: $('#text-field').val()
+        email: $email.val(),
+        name: $name.val(),
+        text: $text.val()
       };
-      console.log('sending message', message);
 
       $.ajax({
         type: "POST",
@@ -33,13 +32,11 @@ module.exports.attach = function() {
         contentType: 'application/json',
         crossDomain: 'true',
         success: function(data) {
-          console.log(data);
+          $('.contact-form').hide();
+          $('.on-submit').show();
         },
         dataType: 'json'
       });
-
-      $('.contact-form').hide();
-      $('.on-submit').show();
     });
   }
 };

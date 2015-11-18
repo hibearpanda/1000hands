@@ -63,3 +63,42 @@ a {
     }
   }
 }
+
+//TODO: Refactor into separate scss file and extend contact form
+.backer-content {
+  @extend .content-wrapper;
+  display: none;
+}
+
+.password-form {
+  margin: 300px auto 0 auto;
+  max-width: 50%;
+
+  #password-field {
+    display: block;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    font-size: 15px;
+    border: solid 1px grey;
+    padding: 5px;
+  }
+
+  .password-submit {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    color: white;
+    background-color: $menu-red-dark;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+}
