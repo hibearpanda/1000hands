@@ -8,6 +8,8 @@
 }
 
 .image-row {
+  max-height: 400px;
+  overflow: hidden;
   img {
     width: 100vw;
   }
