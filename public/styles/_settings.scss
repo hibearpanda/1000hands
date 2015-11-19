@@ -1,4 +1,8 @@
-$font-stack: Helvetica, sans-serif;
+// Download this font asset later on
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+
+$font-stack: 'Lato', Helvetica, sans-serif;
 $menu-red: #932727;
 $menu-red-dark: #810515;
 $primary-red: #774553;
