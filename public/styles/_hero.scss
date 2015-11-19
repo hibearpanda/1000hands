@@ -23,12 +23,12 @@
 
 .landing-hero-image {
   @extend .hero;
-  height: 900px;
+  height: 820px;
   position: absolute;
-  top: -110px;
+  top: -80px;
   z-index: 10;
-  background-image: url('../assets/empty-thangka-trans-cropped.png');
-  background-size: 500px !important;
+  background-image: url('../assets/empty-thangka_clean.png');
+  background-size: auto 100% !important;
 }
 
 // TODO: If contact-hero-image = base, refactor to hero-image
