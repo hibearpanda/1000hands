@@ -1,7 +1,7 @@
 var nodemailer = require('nodemailer');
 var mailgun = require('nodemailer-mailgun-transport');
 
-if (!process.env.MY_EMAIL) {
+if (!process.env.MAILGUN_API && !process.env.MAILGUN_DOMAIN) {
   var config = require('./config');
 }
 
