@@ -13,7 +13,7 @@
 .hero, .landing-hero-image, .contact-hero-image, .about-hero-image, .behind-hero-image {
   height: 60vh;
   width: 100%;
-  margin-top: 8vh;
+  margin-top: 60px;
   overflow: hidden;
   background-size: cover;
   background-repeat: no-repeat;
