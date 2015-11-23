@@ -13,6 +13,10 @@
     float: left;
     font-size: 0.75em;
 
+    h4 {
+      font-family: $menu-font;
+    }
+
     a {
       width: 100%;
       display: block;
@@ -20,13 +24,13 @@
     }
 
     .icon{
-      width: 30% !important;
+      width: 11% !important;
       margin: 20px 1.5% 0 1.5%;
       float:left;
       display: inline-block;
 
       img{
-        width: 45px;
+        width: 30px;
       }
     }
   }
@@ -38,7 +42,7 @@
   }
 
   .center {
-    text-align: center;
+    text-align: left;
     margin-left: 7.5%;
     margin-right: 7.5%;
   }
