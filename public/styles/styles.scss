@@ -85,6 +85,7 @@ a {
 .backer-content {
   @extend .content-wrapper;
   display: none;
+  padding-top: 60px;
 }
 
 .password-form {
