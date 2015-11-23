@@ -5,7 +5,9 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "browserify -e public/js/app.js -o public/build/bundle.js -d"
+    "bundle": "browserify -e public/js/app.js -o public/build/bundle.js -d",
+    "sass": "sass ./public/styles/styles.scss:./public/build/styles.css",
+    "build": "npm run-script bundle && npm run-script sass"
   },
   "repository": {
     "type": "git",

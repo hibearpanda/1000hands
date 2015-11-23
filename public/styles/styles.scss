@@ -6,6 +6,10 @@
 @import 'footer';
 @import 'slider-pro';
 
+html, body {
+  height: 100%;
+}
+
 body {
   font-family: $font-stack;
   overflow-y: scroll;
@@ -24,7 +28,8 @@ a {
 
 .content-wrapper {
   width: 100%;
-  height: 100%;
+  min-height: 100%;
+  margin-bottom: -150px;
 
   h1, h2, h3, h4, h5, h6, p {
     color: $primary-red;
@@ -48,6 +53,10 @@ a {
   margin-top: 120px;
   padding-top: 10px;
   background: white;
+}
+
+.push {
+  height: 150px;
 }
 
 // Tablet Size
@@ -76,6 +85,7 @@ a {
 .backer-content {
   @extend .content-wrapper;
   display: none;
+  padding-top: 60px;
 }
 
 .password-form {

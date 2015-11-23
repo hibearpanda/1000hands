@@ -1,7 +1,7 @@
 .hero {
   height: 60vh;
   width: 100%;
-  margin-top: 8vh;
+  margin-top: 50px;
   overflow: hidden;
   background-size: cover;
   background-repeat: no-repeat;
@@ -45,7 +45,7 @@
 .behind-hero-image {
   @extend .contact-hero-image;
   background-image: url('../assets/ashi-kesang.jpg');
-  height: 74vh;
+  height: 90vh;
 }
 
 .video_contain {

@@ -13,7 +13,7 @@ module.exports.attach = function() {
         contentType: 'application/json',
         success: function(data) {
           if (data.success) {
-            $passwordForm.hide();
+            $('.behind-hero-image').hide();
             $('.backer-content').show();
           } else {
             return alert('Incorrect Password!');
