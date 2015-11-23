@@ -272,7 +272,7 @@
       display: block;
       color: white; }
     .footer .footer-container .icon {
-      width: 30% !important;
+      width: 11% !important;
       margin: 20px 1.5% 0 1.5%;
       float: left;
       display: inline-block; }
@@ -282,7 +282,7 @@
     text-align: left;
     margin-left: 12.5%; }
   .footer .center {
-    text-align: center;
+    text-align: left;
     margin-left: 7.5%;
     margin-right: 7.5%; }
   .footer .right {
