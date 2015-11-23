@@ -13,6 +13,10 @@
     float: left;
     font-size: 0.75em;
 
+    h4 {
+      font-family: $menu-font;
+    }
+
     a {
       width: 100%;
       display: block;
@@ -26,7 +30,7 @@
       display: inline-block;
 
       img{
-        width: 45px;
+        width: 30px;
       }
     }
   }

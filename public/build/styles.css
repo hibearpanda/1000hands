@@ -265,6 +265,8 @@
     display: inline-block;
     float: left;
     font-size: 0.75em; }
+    .footer .footer-container h4 {
+      font-family: open-sans-semibold, lato-bold, Helvetica, sans-serif; }
     .footer .footer-container a {
       width: 100%;
       display: block;
@@ -275,7 +277,7 @@
       float: left;
       display: inline-block; }
       .footer .footer-container .icon img {
-        width: 45px; }
+        width: 30px; }
   .footer .left {
     text-align: left;
     margin-left: 12.5%; }
