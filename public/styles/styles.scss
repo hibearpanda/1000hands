@@ -41,6 +41,11 @@ a {
   text-decoration: underline;
 }
 
+video::-webkit-media-controls-start-playback-button {
+  display: none !important;
+  -webkit-appearance: none;
+}
+
 // Content Wrapper
 
 .content-wrapper {
