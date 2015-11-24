@@ -15,17 +15,18 @@
 
 .landing-video{
   margin: auto;
-  padding-top: 100px;
+  padding-top: 10vh;
   display: block;
-  height: 575px;
+  height: 100vh;
   overflow: hidden;
 }
 
 .landing-hero-image {
   @extend .hero;
-  height: 820px;
+  height: 140vh;
   position: absolute;
-  top: -80px;
+  top: 0;
+  margin-top: 0;
   z-index: 10;
   background-image: url('../assets/empty-thangka_clean.png');
   background-size: auto 100% !important;
