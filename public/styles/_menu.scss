@@ -27,7 +27,8 @@
     display: inline-block;
     height: 100%;
     vertical-align: middle;
-    padding-top: 3px;
+    -webkit-filter: drop-shadow(1px 1px 3px);
+    filter: drop-shadow(1px 1px 3px);
   }
 }
 
@@ -86,8 +87,9 @@
   .menu-left-area {
     #menu-logo {
       display: inline-block;
-      max-width: 90%;
-      left: 0;
+      max-width: 75%;
+      height: auto;
+      top: 5px;
       position: absolute;
     }
   }
