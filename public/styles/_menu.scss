@@ -155,6 +155,10 @@
       font-size: 1.5em;
       display: block;
     }
+
+    a:hover {
+      border-bottom: none;
+    }
   }
 
   .menu-slidedown, .menu-slideup {
@@ -172,11 +176,6 @@
 
   .menu-items-selected {
     border-bottom: solid 5px;
-  }
-
-  .menu-items {
-    a:hover {
-      border-bottom: none;
-    }
+    display:inline-block;
   }
 }
