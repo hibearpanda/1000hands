@@ -3,8 +3,8 @@ var path = require('path');
 var mail = require('./mail');
 var pass = 'test';
 
-if (process.cwd.BTS_PASS) {
-  pass = process.cwd.BTS_PASS;
+if (process.env.BTS_PASS) {
+  pass = process.env.BTS_PASS;
 }
 
 // General page delivery
