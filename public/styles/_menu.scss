@@ -74,6 +74,11 @@
   border-bottom: solid 2px;
 }
 
+@include breakpoint('mobile') {
+  .menu-items {
+    width: 80% !important;
+  }
+}
 
 // Tablet Size
 
@@ -132,7 +137,7 @@
     overflow-x: hidden;
     text-align: left;
     position: fixed;
-    width: 80%;
+    width: 40%;
     padding: 0;
     box-shadow: rgba(0,0,0,0.09) 0 8px 8px;
 
@@ -161,7 +166,7 @@
   }
 
   .menu-slidedown {
-    max-height: 350px;
+    max-height: 400px;
   }
 
   .menu-items-selected {
