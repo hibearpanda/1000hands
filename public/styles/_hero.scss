@@ -35,7 +35,7 @@
 .video-button {
   position: absolute;
   z-index:11;
-  top: 40%;
+  top: 40vh;
   left: 50%;
   margin-left: -150px;
   width: 300px;
@@ -43,6 +43,10 @@
   background-image: url('../assets/etc/playbutton.png');
   background-size: cover;
   display:none;
+}
+
+.itw-button {
+  top: 10vh !important;
 }
 
 
