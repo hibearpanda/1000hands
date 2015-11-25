@@ -41,7 +41,7 @@ $(document).ready(function() {
     $vb = $('.video-button');
     $vb.show();
     $vb.click(function(){
-      $('.landing-video').get(0).play();
+      $('video').get(0).play();
       $vb.hide();
     });
   }
