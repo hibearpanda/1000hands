@@ -68,7 +68,9 @@
 }
 
 .btw-header {
-  margin-top: 20vh;
+  margin-top: 20vh !important;
+  display: block !important;
+  width: 50% !important;
 }
 
 .video_contain {
