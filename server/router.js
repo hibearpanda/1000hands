@@ -16,7 +16,7 @@ router.get('/*', function(req, res) {
 router.post('/contact', function(req, res) {
   var message = {
     from: req.body.email,
-    to: 'ryan@divedecks.com',
+    to: '1000handsfilm@gmail.com',
     subject: 'Message from - ' + req.body.name,
     text: req.body.text
   };
