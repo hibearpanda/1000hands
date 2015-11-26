@@ -74,6 +74,20 @@ video::-webkit-media-controls-start-playback-button {
     line-height: 2;
     font-size: 1.2em;
   }
+
+  .video-description {
+    background-image: url('../assets/etc/menu-texture.jpg');
+    background-repeat: repeat;
+    background-color: $menu-red-dark;
+    color: white;
+    display: inline-block;
+    width: 20%;
+    border-radius: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    font-style: initial;
+  }
 }
 
 .landing-fold {
@@ -104,6 +118,10 @@ video::-webkit-media-controls-start-playback-button {
 
     p {
       font-size: 1.2em;
+    }
+
+    .video-description {
+      width: 50%;
     }
   }
 }
