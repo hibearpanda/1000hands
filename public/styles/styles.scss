@@ -81,7 +81,7 @@ video::-webkit-media-controls-start-playback-button {
     background-color: $menu-red-dark;
     color: white;
     display: inline-block;
-    width: 20%;
+    width: 40%;
     border-radius: 7px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -121,7 +121,7 @@ video::-webkit-media-controls-start-playback-button {
     }
 
     .video-description {
-      width: 50%;
+      width: 60%;
     }
   }
 }
