@@ -1,4 +1,4 @@
-# 1000gurus
+# 1000 Hands of the Guru - Website
 
 ## Development
 
@@ -24,10 +24,6 @@ Compile SCSS into CSS and watch during development:
 ```
 sass --watch ./public/styles/styles.scss:./public/build/styles.css
 ```
-
-Add videos to public/assets/video
-Avalo_loop.mp4
-Guru_loop.mp4
 
 ### Start Server & Connect
 npm start
