@@ -10,6 +10,10 @@
 mkdir public/build
 ```
 
+1. Contact admin for config.js
+
+Config file for mailgun + other services
+
 1. JS bundle
 
 ```
