@@ -1,11 +1,6 @@
 var router = require('express').Router();
 var path = require('path');
 var mail = require('./mail');
-var pass = 'test';
-
-if (process.env.BTS_PASS) {
-  pass = process.env.BTS_PASS;
-}
 
 // General page delivery
 router.get('/*', function(req, res) {
@@ -30,15 +25,6 @@ router.post('/contact', function(req, res) {
       res.json({success: true});
     }
   });
-});
-
-// Behind the Scenes password route
-// TODO: change password check to process.env variable
-router.post('/backer_login', function(req, res) {
-  if (req.body.password !== pass) {
-    res.json({success: false});
-  }
-  res.json({success: true});
 });
 
 module.exports = router;
