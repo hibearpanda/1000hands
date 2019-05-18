@@ -49,3 +49,10 @@ npm run build
 ```
 
 Then start server.
+
+## Deployment
+Currently deployed on a Digital Ocean Droplet with the reflexproductions.tv website.
+
+Process is run via systemd.
+
+Service file is at /etc/systemd/system/hands.service
