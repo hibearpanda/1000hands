@@ -10,7 +10,7 @@
 mkdir public/build
 ```
 
-1. Contact admin for config.js
+1. Contact admin forq config.js
 
 Config file for mailgun + other services
 
@@ -30,5 +30,6 @@ sass --watch ./public/styles/styles.scss:./public/build/styles.css
 ```
 
 ### Start Server & Connect
+```
 npm start
-connect to localhost:3000
+```
