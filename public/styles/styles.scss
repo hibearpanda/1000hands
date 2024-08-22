@@ -95,6 +95,15 @@ video::-webkit-media-controls-start-playback-button {
     margin-top: 20px;
     font-style: initial;
   }
+
+  .faq-header {
+    font-weight: bold;
+    margin-bottom: 1em;
+  }
+
+  .faq-answer {
+    margin-top: 0;
+  }
 }
 
 .landing-fold {
@@ -178,11 +187,3 @@ video::-webkit-media-controls-start-playback-button {
   text-decoration: underline;
 }
 
-.faq-header {
-  font-weight: bold;
-  margin-bottom: 1em;
-}
-
-.faq-answer {
-  margin-top: 0;
-}
