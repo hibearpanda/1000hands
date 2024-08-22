@@ -58,7 +58,7 @@ video::-webkit-media-controls-start-playback-button {
   min-height: 100%;
   margin-bottom: -150px;
 
-  h1, h2, h3, h4, h5, h6, p {
+  h1, h2, h3, h4, h5, h6, p, ul {
     color: $primary-red;
     text-align: center;
     margin-left: auto;
@@ -164,4 +164,9 @@ video::-webkit-media-controls-start-playback-button {
     margin-bottom: 10px;
     cursor: pointer;
   }
+}
+
+.link {
+  color: $primary-red;
+  text-decoration: underline;
 }
