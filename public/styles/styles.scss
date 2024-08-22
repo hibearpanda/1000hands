@@ -58,13 +58,20 @@ video::-webkit-media-controls-start-playback-button {
   min-height: 100%;
   margin-bottom: -150px;
 
-  h1, h2, h3, h4, h5, h6, p, ul {
+  h1, h2, h3, h4, h5, h6, p {
     color: $primary-red;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     width: $content-width;
     line-height: 1.5;
+  }
+
+  ul {
+    color: initial;
+    margin-left: auto;
+    margin-right: auto;
+    width: $content-width;
   }
 
   p {
